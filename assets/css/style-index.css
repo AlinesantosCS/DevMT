@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -6,6 +7,7 @@
 /* Tira o scroll horizontal */
 html, body {
     overflow-x: hidden;
+    color:#FAF4FF ;
 }
 
 body{
@@ -13,6 +15,7 @@ body{
    
 }
 
+/*HEADER*/
 #container{
     background: url("../img/banner-principal.png");
     height: 100vh;
@@ -87,7 +90,7 @@ label{
 }
 
 .titulo {
-    color:#FAF4FF ;
+    
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -105,9 +108,27 @@ label{
 
 
 .translate-middle {
-    transform: translate(-50%,-108%)!important;
+    transform: translate(-50%,-125%)!important;
 }
 
 .seta{
     max-width: 60%;
+}
+
+/*MAIN*/
+.conheca{
+    background-color: #1C2B2D;
+   
+}
+
+.conheca h2{
+    padding-bottom: 20px;
+    border-bottom: white solid 5px;
+    margin: 0 80px;
+  
+}
+
+.conheca-texto{
+   font-size: 1.3em;
+
 }
