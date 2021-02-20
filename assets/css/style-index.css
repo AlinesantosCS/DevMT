@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Tira o scroll horizontal */
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+   
+}
+
+#container{
+    background: url("../img/banner-principal.png");
+    height: 100vh;
+    display: flex;
+   
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    margin: 10px;
+    color: #FAF4FF;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    top: 54px;
+    position: absolute;
+    width: 100%;
+}
+
+li{
+    text-align: right;
+}
+
+.logo{
+    width: 80px;
+    
+}
+
+.menu{
+    width: 90px;
+}
+
+    
+
+input[type="checkbox"]{
+    display: none;
+}
+
+/* Evento no elemento nav */
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(-350px);
+}
+
+nav{
+    background-color: rgba(16,16,16,.5);
+    width: 227px;
+    height: 100%;
+    /* Esconde o menu */
+    /* left: -350px; */
+    right: -350px;
+    position: absolute;
+    transition: all 0.5s;
+    
+}
+
+a:hover{
+    background-color: rgba(70, 131, 180, 0.507);
+    color: black;
+}
+
+label{
+    /* background-color:  rgba(16,16,16,.5); */
+    padding: 15px;
+    position: absolute;
+    right: 4px;
+    z-index: 1;
+}
+
+.titulo {
+    color:#FAF4FF ;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    
+}
+
+.titulo h1{
+    
+    font-weight: 500;
+    font-size: 2em;
+    margin: 200px;
+}
+
+
+.translate-middle {
+    transform: translate(-50%,-108%)!important;
+}
+
+.seta{
+    max-width: 60%;
+}
