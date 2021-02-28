@@ -6,7 +6,7 @@
 
 /* Tira o scroll horizontal */
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     color:#FAF4FF ;
 }
 
@@ -56,7 +56,7 @@ li{
     
 
 input[type="checkbox"]{
-    display: none;
+    display: none!important;
 }
 
 /* Evento no elemento nav */
@@ -104,8 +104,12 @@ label{
     font-weight: 500;
     font-size: 2em;
     margin: 200px;
+    
 }
 
+.titulo h1, .subtitulo{
+    font-weight: 600;
+}
 
 .translate-middle {
     transform: translate(-50%,-125%)!important;
@@ -121,14 +125,113 @@ label{
    
 }
 
-.conheca h2{
+.border-bottom {
     padding-bottom: 20px;
-    border-bottom: white solid 5px;
-    margin: 0 80px;
-  
+    margin: 0 4em;
+   
+    border-bottom: 5px solid #FAF4FF!important;
 }
 
 .conheca-texto{
-   font-size: 1.3em;
+   font-size: 1.5em;
+}
+
+/* Candidata ~ Empresa*/
+.candidata-empresa{
+    background-color: #844685;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.26);
+  
+}
+
+.border-bottom-candidata-empresa{
+    padding-bottom: 20px;
+    margin: 0 -5em;
+    border-bottom: 5px solid #FAF4FF!important;
+}
+
+.posicao{
+    margin-left: 14rem!important;
+}
+
+.mx-auto-btn {
+    margin-right: -1rem!important;
+    margin-left: auto!important;
+}
+
+.btn-primary{
+    background-color: #10375C;
+    border-color: #10375C;
+    font-size: 1.5em;
+    font-weight: 600;
+  
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    background-color: #15345b;
+    border-color: #15345b;
+      /*Primeiro valor: + direita - esquerda
+         Segundo valor: + para baixo  - para cima
+         Terceiro valor: + mais solida - esfumaçado */
+    box-shadow: 1px 1px 10px #ece2e3;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 1.3rem 9rem;
+    font-size: 1.25rem;
+    border-radius: .9rem;
+}
+
+.btn {
+    
+}
+
+/* oportunidades*/
+.oportunidades{
+    background-color: #1C2B2D;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.26);
 
 }
+
+.border-bottom-medio{
+    padding-bottom: 20px;
+    margin: 0 9em;
+   
+    border-bottom: 5px solid #FAF4FF!important;
+}
+
+.imagem-oportunidades{
+    margin: 0 3rem 0 29rem;
+}
+
+.border-bottom-oportunidade{
+    padding-bottom: 20px;
+    margin: 0 -9em;
+   
+    border-bottom: 5px solid #FAF4FF!important;
+}
+
+.mx-autobtn2{
+    margin-right: -7rem!important;
+    margin-left: auto!important;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #15345b;
+}
+footer img {
+    width: 50px; 
+    max-width: 100%;
+}
+
+footer .gmail{
+    width: 45px;
+    max-width: 100%;
+}
+
+aside a{
+    display: inline-block;
+}
+
+
+/*Telas responsivas*/
