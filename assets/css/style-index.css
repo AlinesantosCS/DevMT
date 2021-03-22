@@ -65,7 +65,7 @@ input[type="checkbox"]:checked ~ nav{
 }
 
 nav{
-    background-color: rgba(16,16,16,.5);
+    background-color: #8446859d;
     width: 227px;
     height: 100%;
     /* Esconde o menu */
@@ -73,13 +73,19 @@ nav{
     right: -350px;
     position: absolute;
     transition: all 0.5s;
+
     
 }
 
-a:hover{
-    background-color: rgba(70, 131, 180, 0.507);
-    color: black;
+.menu-home a{
+    font-weight:bolder;
 }
+
+.menu-home a:hover{
+    background-color: #FAF4FF;
+    color: #10375C;
+}
+
 
 label{
     /* background-color:  rgba(16,16,16,.5); */
@@ -115,9 +121,9 @@ label{
     transform: translate(-50%,-125%)!important;
 }
 
-.seta{
+/* .seta{
     max-width: 60%;
-}
+} */
 
 /*MAIN*/
 .conheca{
@@ -149,12 +155,15 @@ label{
     border-bottom: 5px solid #FAF4FF!important;
 }
 
-.posicao{
+
+.posicao {
     margin-left: 14rem!important;
+    margin-right: auto;
 }
 
+
 .mx-auto-btn {
-    margin-right: -1rem!important;
+    margin-right:  4rem!important;;
     margin-left: auto!important;
 }
 
@@ -181,9 +190,7 @@ label{
     border-radius: .9rem;
 }
 
-.btn {
-    
-}
+
 
 /* oportunidades*/
 .oportunidades{
@@ -200,7 +207,7 @@ label{
 }
 
 .imagem-oportunidades{
-    margin: 0 3rem 0 29rem;
+    margin:0px 1rem 0px 25rem;
 }
 
 .border-bottom-oportunidade{
@@ -227,6 +234,11 @@ footer img {
 footer .gmail{
     width: 45px;
     max-width: 100%;
+}
+
+a:hover{
+    background-color: #faf4ff3b;
+ 
 }
 
 aside a{
