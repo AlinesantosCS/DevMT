@@ -31,7 +31,308 @@
     </header>
 
     <main>
-       
+        <main>
+            <div class="col-lg-10 container form-group ">
+                <h1 class="text-center my-4 texto-cor h1 "><strong>SEJA BEM - VINDA!</strong> </h1>
+                <div class="col-lg-12 shadow p-3 mb-5 bg-form rounded sticky-center ">
+                    <form action="" method="POST" id="login">
+                        <!-- LOCALIZAÇÃO -->
+                        <h2 class="text-right py-3 border-bottom mx-5 texto-cor">Localização</h2>
+                        <div class="form-row my-5">
+                            <div class="col-lg-5 pt-3 mx-auto">
+                                <h3 class="texto-cor h6">CEP</h3>
+                                <input class="form-control form-control-md my-2" id="cep" name="cep" type="number" />
+                                <span class="invalid-feedback bg-transparent" id="cepErro"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-4  ">
+                                <h3 class="texto-cor h6 ">Estado</h3>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Selecione uma opção</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                    
+                                  </select>
+                                <span class="invalid-feedback bg-transparent" id="estadoErro"></span>
+                            </div>
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6">Cidade</h3>
+                                <input class="form-control form-control-md " id="cidade" name="cidade" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id="cidadeErro"></span>
+                            </div>
+                        </div>
+
+                       
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-3 mx-auto">
+                                <h3 class="texto-cor h6">Bairro</h3>
+                                <input class="form-control form-control-md my-2" id="bairro" name="bairro" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="bairroErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-1  ">
+                                <h3 class="texto-cor h6 ">Nº</h3>
+                                <input class="form-control form-control-md " id="numero" name="numero" onkeypress=""
+                                type="number" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id="numeroErro"></span>
+                            </div>
+                            <div class="col-7 ">
+                                <h3 class="texto-cor h6">Complemento</h3>
+                                <input class="form-control form-control-md " id="complemento" name="complemento" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id="complementoErro"></span>
+                            </div>
+                        </div>
+
+                        <!-- DADOS PESSOAIS -->
+                        <h2 class="text-right py-3 mt-5 border-bottom mx-5 texto-cor">Dados pessoais</h2>
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-3 mx-auto">
+                                <h3 class="texto-cor h6">Nome completo</h3>
+                                <input class="form-control form-control-md my-2" id="nome" name="nome" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="nomeErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-1 mx-auto">
+                                <h3 class="texto-cor h6">Nome social</h3>
+                                <input class="form-control form-control-md my-2" id="nomeSocial" name="nomeSocial" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="nomeSocialErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-4  ">
+                                <h3 class="texto-cor h6 ">Identidade de gênero</h3>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Selecione uma opção</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                  </select>
+                                <span class="invalid-feedback bg-transparent" id="estadoErro"></span>
+                            </div>
+
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6">Data de nascimento</h3>
+                                <input class="form-control form-control-md " id="data" name="data" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id="dataErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6 ">Celular</h3>
+                                <input class="form-control form-control-md " id="celular" name="celular" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id="celularErro"></span>
+                            </div>
+
+                            <div class="col-4 "> </div>
+
+                        </div>
+
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-4  ">
+                                <h3 class="texto-cor h6 ">RG</h3>
+                                <input class="form-control form-control-md " id="rg" name="rg" onkeypress=""
+                                    type="text" placeholder="" />
+                                
+                                <span class="invalid-feedback bg-transparent" id="rgErro"></span>
+                            </div>
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6">CPF</h3>
+                                <input class="form-control form-control-md " id="cpf" name="cpf" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id=" cpfErro"></span>
+                            </div>
+                        </div>
+
+                        <!-- FORMAÇÃO -->
+                        <h2 class="text-right py-3 mt-5 border-bottom mx-5 texto-cor">Formação</h2>
+                            <div class="form-row my-5">
+                                <div class="col-lg-8 pt-1 mx-auto">
+                                    <h3 class="texto-cor h6">Curso</h3>
+                                    <input class="form-control form-control-md my-2" id="curso" name="curso" type="text" />
+                                    <span class="invalid-feedback bg-transparent" id="cursoErro"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-row my-5">
+                                <div class="col-lg-8 pt-1 mx-auto">
+                                    <h3 class="texto-cor h6">Instituição</h3>
+                                    <input class="form-control form-control-md my-2" id="instituicao" name="instituicao" type="text" />
+                                    <span class="invalid-feedback bg-transparent" id="instituicaoErro"></span>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-4  ">
+                                    <h3 class="texto-cor h6 ">Duração</h3>
+                                    <input class="form-control form-control-md " id="duracao" name="duracao" onkeypress=""
+                                        type="text" placeholder="" />
+                                    
+                                    <span class="invalid-feedback bg-transparent" id="duracaoErro"></span>
+                                </div>
+                                <div class="col-4 ">
+                                    <h3 class="texto-cor h6">Periodo</h3>
+                                    <input class="form-control form-control-md " id="periodo" name="periodo" onkeypress=""
+                                        type="text" placeholder="" />
+                                    <span class="invalid-feedback bg-transparent" id=" periodoErro"></span>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center mt-3">
+                                <div class="col-4 ">
+                                    <h3 class="texto-cor h6 ">Conclusão</h3>
+                                    <input class="form-control form-control-md " id="conclusao" name="conclusao" onkeypress=""
+                                        type="text" placeholder="" />
+                                    <span class="invalid-feedback bg-transparent" id="conclusaoErro"></span>
+                                </div>
+    
+                                <div class="col-4 "> </div>
+    
+                            </div>
+
+                             <!-- CURSO COMPLEMENTARES -->
+                        <h2 class="text-right py-3 border-bottom mx-5 texto-cor mt-5">Curso complementares</h2>
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-1 mx-auto">
+                                <h3 class="texto-cor h6">Curso</h3>
+                                <input class="form-control form-control-md my-2" id="cursoComplementar" name="cursoComplementar" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="cursoComplementarErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-1 mx-auto">
+                                <h3 class="texto-cor h6">Instituição</h3>
+                                <input class="form-control form-control-md my-2" id="instituicaoComplementar" name="instituicaoComplementar" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="instituicaoComplementarErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-4  ">
+                                <h3 class="texto-cor h6 ">Duração</h3>
+                                <input class="form-control form-control-md " id="duracaoComplementar" name="duracaoComplementar" onkeypress=""
+                                    type="text" placeholder="" />
+                                
+                                <span class="invalid-feedback bg-transparent" id="duracaoComplementarErro"></span>
+                            </div>
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6">Periodo</h3>
+                                <input class="form-control form-control-md " id="periodoComplementar" name="periodoComplementar" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id=" periodoComplementarErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6 ">Conclusão</h3>
+                                <input class="form-control form-control-md " id="concuclusaoComplementar" name="concuclusaoComplementar" onkeypress=""
+                                    type="text" placeholder=""/>
+                                <span class="invalid-feedback bg-transparent" id="concuclusaoComplementarErro"></span>
+                            </div>
+
+                            <div class="col-4 "> </div>
+
+                        </div>
+
+                      <!-- EXPERIÊNCIA -->
+                        <h2 class="text-right py-3 border-bottom mx-5 texto-cor mt-5">Experiência</h2>
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-1 mx-auto">
+                                <h3 class="texto-cor h6">Empresa</h3>
+                                <input class="form-control form-control-md my-2" id="empresa" name="empresa" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="empresaErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-5">
+                            <div class="col-lg-8 pt-1 mx-auto">
+                                <h3 class="texto-cor h6">Cargo</h3>
+                                <input class="form-control form-control-md my-2" id="cargo" name="cargo" type="text" />
+                                <span class="invalid-feedback bg-transparent" id="cargoErro"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row my-5">
+                           
+                            <div class=" col-lg-8 mx-auto form-floating">
+                                <div>
+                                    <h3 class="texto-cor h6">Atividade</h3 >
+                                </div>
+                                <textarea class="form-control" placeholder="Descrição" id="floatingTextarea"></textarea>
+                               
+                            </div>
+    
+                        </div>
+
+
+                        <div class="row justify-content-center mt-3">
+                            <div class="col-4  ">
+                                <h3 class="texto-cor h6 ">Entrada</h3>
+                                <input class="form-control form-control-md " id="entrada" name="entrada" onkeypress=""
+                                    type="text" placeholder="" />
+                                
+                                <span class="invalid-feedback bg-transparent" id="entradaErro"></span>
+                            </div>
+                            <div class="col-4 ">
+                                <h3 class="texto-cor h6">Saída</h3>
+                                <input class="form-control form-control-md " id="saida" name="saida" onkeypress=""
+                                    type="text" placeholder="" />
+                                <span class="invalid-feedback bg-transparent" id=" saidaErro"></span>
+                            </div>
+                        </div>
+                        
+
+
+    
+                        <div class="row justify-content-center mt-5 ">
+                            <div class="col-lg-4 my-2 justify-content-center ">
+                                <input class="form-control form-control-lg col-lg-5 py-auto btn btn-primary " name="text"
+                                    type="submit" value="Salvar" />
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
     </main>
 
 

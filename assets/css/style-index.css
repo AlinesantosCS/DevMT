@@ -161,9 +161,13 @@ label{
     margin-right: auto;
 }
 
+.mx-auto-btn-maior {
+    margin-right: 4rem!important;
+    margin-left: auto!important;
+}
 
 .mx-auto-btn {
-    margin-right:  4rem!important;;
+    margin-right: 2rem!important;
     margin-left: auto!important;
 }
 
@@ -185,8 +189,8 @@ label{
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    padding: 1.3rem 9rem;
-    font-size: 1.25rem;
+    /* padding: 1.3rem 9rem; */
+    font-size: 1.20rem;
     border-radius: .9rem;
 }
 

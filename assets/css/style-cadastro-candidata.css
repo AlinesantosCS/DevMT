@@ -2,8 +2,42 @@
     background-color: #10375C;
 }
 
+.texto-cor{
+    color: #10375C;
+}
+
+.bg-form{
+background-color: #FAF4FF;
+}
 
 
+/* MAIN */
+.border-bottom {
+    border-bottom: 2px solid #844685!important;
+}
+/* Botões */
+.btn:hover, .btn:focus, .btn:active{
+    background-color: #15345b;
+    border-color: #15345b;
+      /*Primeiro valor: + direita - esquerda
+         Segundo valor: + para baixo  - para cima
+         Terceiro valor: + mais solida - esfumaçado */
+    box-shadow: 1px 1px 10px #8446859c;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    /* padding: 1.3rem 9rem; */
+    font-size: 1.20rem;
+    border-radius: .9rem;
+}
+
+.btn-primary {
+    background-color: #10375C;
+    border-color: #10375C;
+    color: #FAF4FF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
 
 
 /*FOOTER*/
