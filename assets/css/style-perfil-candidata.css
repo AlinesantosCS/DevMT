@@ -3,6 +3,11 @@ body{
    
 }
 
+
+.bg-form{
+    background-color: #FAF4FF;
+    }
+
 .cor-padrao{
     background-color: #10375C;
 }
@@ -15,11 +20,30 @@ body{
 background-color: #FAF4FF;
 }
 
-
 /* MAIN */
-.border-bottom {
-    border-bottom: 2px solid #844685!important;
+.bg-banner{
+    background-color: #1C2B2D;
 }
+
+.border-bottom {
+    border-bottom: 2px solid #FAF4FF!important;
+}
+
+.titulo{
+    color: #FAF4FF;
+}
+
+/* Cards */
+.card-body{
+    background-color: #1C2B2D;
+    color: #FAF4FF;
+}
+
+.card{
+    border: none ;
+}
+
+
 /* Botões */
 .btn:hover, .btn:focus, .btn:active{
     background-color: #15345b;
