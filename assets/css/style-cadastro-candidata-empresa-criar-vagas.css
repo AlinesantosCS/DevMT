@@ -3,11 +3,6 @@ body{
    
 }
 
-
-.bg-form{
-    background-color: #FAF4FF;
-    }
-
 .cor-padrao{
     background-color: #10375C;
 }
@@ -20,29 +15,25 @@ body{
 background-color: #FAF4FF;
 }
 
+
 /* MAIN */
-.bg-banner{
-    background-color: #1C2B2D;
+.border-bottom {
+    border-bottom: 2px solid #844685!important;
 }
 
-.border-bottom {
+
+.border-bottom-banner {
     border-bottom: 2px solid #FAF4FF!important;
+}
+
+
+.bg-banner-criar-vagas{
+    background-color: #844685;
 }
 
 .titulo{
     color: #FAF4FF;
 }
-
-/* Cards */
-.card-body{
-    background-color: #1C2B2D;
-    color: #FAF4FF;
-}
-
-.card{
-    border: none ;
-}
-
 
 /* Botões */
 .btn:hover, .btn:focus, .btn:active{
@@ -66,6 +57,11 @@ background-color: #FAF4FF;
     color: #FAF4FF;
     font-size: 1.3em;
     font-weight: 600;
+}
+
+/* Icones */
+.icones:hover, .icones:active{
+    box-shadow: 1px 1px 10px #8446859c;
 }
 
 

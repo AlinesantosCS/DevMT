@@ -1,0 +1,103 @@
+body{
+    font-family: 'Lato', sans-serif;
+   
+}
+
+
+.bg-form{
+    background-color: #FAF4FF;
+    }
+
+.cor-padrao{
+    background-color: #10375C;
+}
+
+.texto-cor{
+    color: #10375C;
+}
+
+.bg-form{
+background-color: #FAF4FF;
+}
+
+/* MAIN */
+.bg-banner{
+    background-color: #1C2B2D;
+}
+
+
+.border-bottom {
+    border-bottom: 2px solid #FAF4FF!important;
+}
+
+.titulo{
+    color: #FAF4FF;
+}
+
+/* Cards */
+.card-body{
+    background-color: #1C2B2D;
+    color: #FAF4FF;
+}
+
+.card{
+    border: none ;
+}
+
+
+/* Botões */
+.btn:hover, .btn:focus, .btn:active{
+    background-color: #15345b;
+    border-color: #15345b;
+      /*Primeiro valor: + direita - esquerda
+         Segundo valor: + para baixo  - para cima
+         Terceiro valor: + mais solida - esfumaçado */
+    box-shadow: 1px 1px 10px #8446859c;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    /* padding: 1.3rem 9rem; */
+    font-size: 1.20rem;
+    border-radius: .9rem;
+}
+
+.btn-primary {
+    background-color: #10375C;
+    border-color: #10375C;
+    color: #FAF4FF;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color: #15345b;
+}
+footer img {
+    width: 50px; 
+    max-width: 100%;
+}
+
+footer .gmail{
+    width: 45px;
+    max-width: 100%;
+}
+
+a:hover{
+    background-color: #faf4ff3b;
+ 
+}
+
+aside a{
+    display: inline-block;
+}
+
+.footer-midias a{
+   
+    padding: 20px 20px;
+    margin: 10px;
+    color: #FAF4FF;
+    text-align: center;
+}
