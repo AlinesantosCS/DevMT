@@ -22,26 +22,15 @@ background-color: #FAF4FF;
 }
 
 .bg-banner{
-    background-color: #844685;
-}
-
-.bg-secudario{
     background-color: #1C2B2D;
-
-}
-
-.titulo-vagas,.subtitulo-vagas,.beneficios,.descricao,.local,.remuneracao,.horario,.data-expiracao{
-    color: #FAF4FF;
-}
-
-.subtitulo-vagas{
-    display: inline;
-    background-color: #844685;
-
 }
 
 .titulo{
     color: #FAF4FF;
+}
+
+.subtitulo{
+    color: #844685;
 }
 
 /* Botões */
@@ -66,6 +55,52 @@ background-color: #FAF4FF;
     color: #FAF4FF;
     font-size: 1.3em;
     font-weight: 600;
+}
+
+/* SEÇÃO EMPREENDEDORAS */
+
+/* .secao-empreendedoras {
+  color: #5b5b5b;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 100px 0px 100px;
+  margin-top: 100px;
+} */
+
+/* .secao-empreendedoras-box {
+  display: flex;
+  height: 250px;
+  width: 50%;
+  padding: 5px 15px 30px 15px;
+  margin-bottom: 100px;
+} */
+
+.secao-empreendedoras-box-img {
+  width: 70%;
+  height: 200px;
+ 
+}
+
+.secao-empreendedoras-box-img img{
+  max-width: 100%;
+}
+
+.secao-empreendedoras-box-img img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.img1 img {
+    box-shadow: 16px 16px #844685;
+  }
+
+.secao-empreendedoras-box-botao:hover{
+  background-color: #f0d7dd;
+  transition: all 0.4s ease;
 }
 
 
@@ -99,4 +134,98 @@ aside a{
     margin: 10px;
     color: #FAF4FF;
     text-align: center;
+}
+
+
+
+  /* Notebook */
+@media (max-width: 1360px) {
+    
+    .secao-empreendedoras-box {
+      padding: 5px 30px 30px 15px;
+    }
+
+    .secao-empreendedoras-box-img {
+      width: 65%;
+    }
+  
+}
+
+@media (max-width: 1260px) {
+
+    .secao-empreendedoras-box-img {
+      width: 80%;
+    }
+
+ 
+}
+
+  
+@media (max-width: 1150px) {
+
+    .secao-empreendedoras-box {
+      flex-direction: column;
+      height: auto;
+      padding-right: 0;
+      margin-bottom: 5px;
+    }
+
+    .secao-empreendedoras-box-img {
+      align-self: center;
+      height: auto;
+      padding-bottom: 50px;
+    }
+
+ 
+  
+}
+
+
+@media (max-width: 770px) {
+
+    .secao-empreendedoras {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .secao-empreendedoras-box {
+      flex-direction: row;
+      width: 90%;
+      margin-bottom: 50px;
+    }
+
+    .secao-empreendedoras-box-img {
+      padding-bottom: 0px;
+    }
+
+    .boxreverse {
+      flex-direction: row-reverse;
+    }
+
+    .secao-empreendedoras-box-img {
+      padding-right: 0;
+      padding-left: 20px;
+    }
+  
+}
+
+
+@media (max-width: 520px) {
+
+    .secao-empreendedoras {
+      padding: 50px 20px 0px 20px;
+    }
+
+    .secao-empreendedoras-box {
+      flex-direction: column;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .secao-empreendedoras-box-img {
+      padding-bottom: 35px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
 }

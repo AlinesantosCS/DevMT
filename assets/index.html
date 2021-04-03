@@ -14,6 +14,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style-index.css">
+
+       <!-- Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png"/>
     <title>DevMT</title>
 </head>
 <body>
@@ -30,10 +33,10 @@
             </label>
             <nav>
                 <ul class="menu-home">
-                    <li><a href="">Quem somos</a></li>
-                    <li><a href="">Candidata</a></li>
-                    <li><a href="">Cursos</a></li>
-                    <li><a href="">Empresas</a></li>
+                    <li><a href="#quem-somos">Quem somos</a></li>
+                    <li><a href="#candidata">Candidata</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#empresas">Empresas</a></li>
                 </ul>
             </nav>
             <div class="titulo">
@@ -42,17 +45,14 @@
         </div>
           
         </figure> 
-        <!-- <div class="position-relative">
-           
-            <div class="position-absolute top-0 start-50 translate-middle "><img src="img/scroll-seta.png" class="seta" alt=""></div>
-        </div> -->
+
         
     </header>
    
     <main>
 
         <!-- CONHEÇA O PROJETO -->
-        <article class="conheca p-5 d-flex justify-content-center">
+        <article class="conheca p-5 d-flex justify-content-center" id="quem-somos">
             <section class="conheca-texto text-center">
                 <h2 class="border-bottom subtitulo" >CONHEÇA O PROJETO  DEV MULHER & TRANS </h2>
                 <p class="pt-4 px-5 mx-5">DevMT tem como finalidade realizar a intermediação entre vagas de empresa que<br> acreditam e apoiam a causa central do projeto que é trazer diversidade no mercado de<br>  tecnologia com foco em mulheres e trans que costumam ser pessoas em situações<br> socioeconômicas vulneráveis.</p>
@@ -60,32 +60,34 @@
         </article>
 
         <!-- CANDIDATA -->
-        <article class="candidata-empresa pt-5 pb-1 d-flex justify-content-center">
+        <article class="candidata-empresa pt-5 pb-1 d-flex justify-content-center" id="candidata">
             <section class="conheca-texto-empresa text-center">
                 <div class="float-end ">
                     <h2 class=" posicao subtitulo border-bottom-candidata-empresa">Candidata,<br>cadastra-se ou entre na sua conta</h2>
                     
                     <div class="d-grid gap-3 col-6 pt-5 mx-auto-btn-maior">
-                        <button class="btn btn-primary btn-lg" type="button">Entrar</button>
-                        <button class="btn btn-primary btn-lg" type="button">Cadastrar</button>
+                        <a href="view/PerfilCandidata.html" class="btn btn-primary btn-lg">Entrar</a>
+                        <a href="view/cadastroInicialCandidata.html" class="btn btn-primary btn-lg">Cadastrar</a>
                     </div>
                </div>
 
               <div class="float-start">
                     <img class= "img-fluid"src="img/cadastrar-candidata.png" alt="">
               </div>
+
             </section>
         </article>
 
           <!-- OPORTUNIDADES -->
-        <article class="oportunidades pt-5 py-5 d-flex justify-content-center">
+        <article class="oportunidades pt-5 py-5 d-flex justify-content-center" id="cursos">
             <section class="conheca-texto text-center">
                 <div class="float-start oportunidades-container">
                     <h2 class=" posicao border-bottom-oportunidade subtitulo">Veja oportunidades!</h2>
                     <p class="border-bottom-medio"></p>
+
                         <div class="d-grid gap-3 col-6 pt-5 mx-autobtn2 ">
-                          <button class="btn btn-primary btn-lg" type="button">Vagas</button>
-                         <button class="btn btn-primary btn-lg" type="button">Cursos</button>
+                            <a href="view/VerVagas.html" class="btn btn-primary btn-lg" type="button">Vagas</a>
+                            <a href="view/VerCursos.html" class="btn btn-primary btn-lg" type="button">Cursos</a>
                        </div>
                </div>
 
@@ -96,15 +98,14 @@
         </article>
 
         <!-- EMPRESAS -->
-        <article class="candidata-empresa pt-5 pb-1 d-flex justify-content-center">
+        <article class="candidata-empresa pt-5 pb-1 d-flex justify-content-center" id="empresas">
             <section class="conheca-texto-empresa text-center">
                 <div class="float-end me-5 ">
                     <h2 class=" posicao border-bottom-candidata-empresa subtitulo">Fure a bolha e deixe a sua<br> empresa mais diversa!</h2>
-                    <!-- <p class="border-bottom-medio"></p>    -->
-                    <div class="d-grid gap-3 col-6 pt-5 mx-auto-btn ">
-                          <button class="btn btn-primary btn-lg" type="button">Anuncie</button>
-                         <button class="btn btn-primary btn-lg" type="button">Cadastrar</button>
-                       </div>
+                        <div class="d-grid gap-3 col-6 pt-5 mx-auto-btn ">
+                            <a href="view/PerfilEmpresa.html" class="btn btn-primary btn-lg" type="button">Anuncie</a>
+                            <a href="view/cadastroInicialEmpresa.html" class="btn btn-primary btn-lg" type="button">Cadastrar</a>
+                        </div>
                </div>
 
               <div class="float-start ">
